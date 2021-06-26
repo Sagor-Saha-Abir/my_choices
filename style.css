@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;   /*opore niche 1 rem koira namse r 2 pase 8rem koira chaipa aise*/
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+/* #navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;    [atao kara jai nicher tao jai navlink java inspect koira copy te jay copy selector]
+    font-size: 1.1rem;
+} */
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+} 
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #00BF85;
+}
+
+.navbar .btn{
+    background: #00BF85;
+    font-weight: 700;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+}
+.hero .font{
+    font-weight: 700;
+}
+.hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+.hero a{
+    background: #00BF85;
+    font-weight: 700;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.hero a:hover{
+    background: #fff;
+}
+.align{
+    align-items: center;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.about .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about .text a{
+    background: #00BF85;
+    font-weight: 700;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+    
+    
+}
+.about{
+    background-color: #000;
+    
+}
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.discovery .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.discovery .text h2{
+    
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.discovery .text p{
+    
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.discovery .text a{
+    background: #111;
+    font-weight: 700;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.card-3{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.card-3 .bold{
+    font-weight: bold;
+}
+.header-1{
+    text-align: center;
+    
+}
+.service-1{
+    font-weight: bold;
+}
+.service-2{
+    background: #000;
+}
+.service-2 .col{
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.service-2 .one{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+}
+
+footer{
+    background: #111!important;
+}
+body > section.discovery.py-5 > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+    background: #00BF85;
+    font-weight: 700;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+.fot .ancor-1 a{
+    text-decoration: none;
+}
+.fot .ancor-1 a:hover{
+    color: white;
+}
+@media screen and (max-width:988px) {
+    .navbar{
+        padding: 1rem;
+    }
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+    #navbarSupportedContent > ul >li:nth-child(n) >a{
+        padding: 0.8rem 0;
+    }
+}
